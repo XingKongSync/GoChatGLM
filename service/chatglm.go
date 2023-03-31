@@ -41,7 +41,7 @@ type ApiPromptResponse struct {
 }
 
 type ApiStreamPromptResponse struct {
-	Message string `json:message`
+	Message string `json:"message"`
 }
 
 func NewChatGLM() *ChatGLM {
